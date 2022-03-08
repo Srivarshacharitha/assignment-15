@@ -1,0 +1,16 @@
+consonants=0
+
+# Enter an input string 
+user_input = input("Enter a string: ")
+ 
+# convert string in case insensitive
+string = user_input.lower()
+ 
+for i in range(0,len(string)):  
+    if string[i] not in ('a',"e","i","o","u"):  
+        consonants = consonants + 1;  
+ 
+print("The number of consonant:",consonants);
+output;
+Enter a string: varsha
+The number of consonant: 4
